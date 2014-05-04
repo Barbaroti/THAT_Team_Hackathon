@@ -1,1 +1,5 @@
 Grupo:THAT_Team
+
+El grupo 'THAT Team' pretende desarrollar una página web con miras a facilitar la participación en las elecciones 
+presidenciales 2014, proporcionando herramientas informativas de forma llamativa y didáctica que impulsen a los 
+votantes a dirigirse a las urnas y participar activa y responsablemente en la jornada electoral.
