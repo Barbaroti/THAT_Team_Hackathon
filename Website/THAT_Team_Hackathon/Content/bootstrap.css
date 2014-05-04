@@ -162,7 +162,7 @@ button,
 input,
 select,
 textarea {
-  margin: 0;
+  margin: 0 0 0 21px;
   font-family: inherit;
   font-size: 100%;
 }
@@ -312,7 +312,7 @@ html {
 
 body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: x-large;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -409,6 +409,7 @@ p {
   font-size: 16.099999999999998px;
   font-weight: 200;
   line-height: 1.4;
+  color: white;
 }
 
 @media (min-width: 768px) {
@@ -4205,6 +4206,20 @@ textarea.input-group-sm > .input-group-btn > .btn {
   text-decoration: none;
 }
 
+.navbar-default {
+    background-color: #eea236;
+    border-color: #428bca;
+}
+
+/* title */
+.navbar-default .navbar-brand {
+    color: #468847;
+}
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus {
+    color: #5E5E5E;
+}
+
 @media (min-width: 768px) {
   .navbar > .container .navbar-brand {
     margin-left: -15px;
@@ -4386,17 +4401,17 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-  background-color: #f8f8f8;
-  border-color: #e7e7e7;
+  background-color: #F8F8F8;
+  border-color: #E7E7E7;
 }
 
 .navbar-default .navbar-brand {
-  color: #777777;
+  color: #b94a48;
 }
 
 .navbar-default .navbar-brand:hover,
 .navbar-default .navbar-brand:focus {
-  color: #5e5e5e;
+  color: #428bca;
   background-color: transparent;
 }
 
@@ -4508,12 +4523,12 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-brand {
-  color: #999999;
+  color: white;
 }
 
 .navbar-inverse .navbar-brand:hover,
 .navbar-inverse .navbar-brand:focus {
-  color: #ffffff;
+  color: gray;
   background-color: transparent;
 }
 
@@ -4522,12 +4537,13 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-  color: #999999;
+  font-size: small;
+  color: white;
 }
 
 .navbar-inverse .navbar-nav > li > a:hover,
 .navbar-inverse .navbar-nav > li > a:focus {
-  color: #ffffff;
+  color: gray;
   background-color: transparent;
 }
 
@@ -4936,12 +4952,12 @@ a.list-group-item.active > .badge,
   font-weight: 200;
   line-height: 2.1428571435;
   color: inherit;
-  background-color: #eeeeee;
+  background-color: #953b39;
 }
 
 .jumbotron h1 {
   line-height: 1;
-  color: inherit;
+  color: white;
 }
 
 .jumbotron p {

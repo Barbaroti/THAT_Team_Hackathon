@@ -15,6 +15,5 @@ public partial class Votacion : System.Web.UI.Page
 
         String URL = "http://www.registraduria.gov.co/servicios/censo.htm?nCedula=" + TextBox1.Text + "&buscar4=Buscar";
         Response.Redirect(URL);
-        //Response.Write("<script>window.open('" + URL + "');</script>");
     }
 }

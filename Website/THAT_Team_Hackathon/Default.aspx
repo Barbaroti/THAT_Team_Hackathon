@@ -9,7 +9,7 @@
 
     <div class="row">
         <div class="col-md-4">
-            <h2>Proceso Electoral</h2>
+            <h2>Jornada Electoral</h2>
             <p>
                 Aquí te decimos: ¿Qué?¿Cómo?¿Cuándo? y ¿Dónde?, votar.</p>
             <p>

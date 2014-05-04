@@ -11,4 +11,26 @@ public partial class Candidatos : System.Web.UI.Page
     {
 
     }
+    protected void Button1_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Zuluaga.aspx");
+    }
+    protected void Button3_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Ramirez.aspx");
+    }
+    protected void Button5_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Santos.aspx");
+    }
+
+    protected void Button2_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Lopez.aspx");
+    }
+
+    protected void Button4_Click(object sender, EventArgs e)
+    {
+        Response.Redirect("~/Peñalosa.aspx");
+    }
 }

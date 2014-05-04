@@ -30,8 +30,8 @@
             }
     </script>
         <asp:TextBox ID="TextBox1" Text="Escriba su numero de cedula" onblur="WaterMark(this, event);" onfocus="WaterMark(this, event);"
-             runat="server" Width="200px"></asp:TextBox>
-        <asp:Button ID="Button1" runat="server" Text="Buscar" OnClick="Button1_Click" OnClientClick="aspnetForm.target =’_blank’;"/>
+             runat="server" Width="206px" style="font-size: small"></asp:TextBox>
+        <asp:Button ID="Button1" runat="server" Text="Buscar" OnClick="Button1_Click" OnClientClick="aspnetForm.target =’_blank’;" style="font-size: small"/>
     </p>
     <p>
         <span style="color: rgb(0, 0, 0); font-family: 'Times New Roman'; font-size: medium; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none;">Aquí encontraras la dirección de tu lugar de votación así como la mesa a la cuál deberás dirigirte una vez te encuentres allí, el número de mesa está indicado en la parte baja del cuado informativo así:</span></p>
